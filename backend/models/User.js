@@ -10,7 +10,7 @@ const userSchema = new Schema(
     bio: String,
   },
   {
-    timeStamps: true
+    timestamps: true
   }
 );
 
