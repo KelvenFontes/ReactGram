@@ -1,4 +1,3 @@
-import { json } from 'react-router-dom';
 import { api, requestConfig } from '../utils/config';
 
 // Register an user
