@@ -17,7 +17,7 @@ const insertPhoto = async(req, res) => {
     image,
     title,
     userId: user._id,
-    username: user.name
+    userName: user.name
   });
 
   // If photo was createed sucessfully, return data
@@ -171,7 +171,7 @@ const commentPhoto = async (req, res) =>{
   // Put comments in the array comment
   const userComment = {
     comment,
-    username: user.name,
+    userName: user.name,
     userImage: user.profileImage,
     userId: user._id
   };
