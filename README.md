@@ -44,7 +44,7 @@ cd reactgram/backend
 
 2. Conecte-se ao banco de dados fornecendo sua CONNECTIONSTRING no arquivo .env. Se você estiver usando o MongoDB Atlas com Mongoose, utilize a seguinte conexão:
 ```bash
-mongodb+srv://<seu-usuario>:<sua-senha>@$<seu-cluster>.mongodb.net/?retryWrites=true&w=majority
+mongodb+srv://<seu-usuario>:<sua-senha>@$<seu-cluster>.mongodb.net/
 ```
 
 __Alternativa:__ Se preferir usar o MongoDB local com Docker, utilize o seguinte:
